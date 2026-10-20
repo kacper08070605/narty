@@ -68,7 +68,7 @@ export function sortItems(items, mode) {
     "cena-malejaco": (a, b) => b.cena - a.cena,
     dlugosc: (a, b) => (a.dlugosc_cm ?? 0) - (b.dlugosc_cm ?? 0),
   }[mode] ?? ((a, b) => a.cena - b.cena);
-  return [...items].sort(by);
+  return [...items].sort((a, b) => (a.zarezerwowane ? 1 : 0) - (b.zarezerwowane ? 1 : 0) || by(a, b));
 }
 
 export function stateToHash(state) {
@@ -107,6 +107,13 @@ export function activeCount(state) {
   let n = FILTER_GROUPS.reduce((acc, g) => acc + (state[g.key]?.length || 0), 0);
   if (state.cenaMin != null || state.cenaMax != null) n += 1;
   return n;
+}
+
+export const EMAIL = "kacper08070605@gmail.com";
+
+export function mailtoHref(ski, pageUrl) {
+  const body = `Dzień dobry,\n\npytam o narty: ${ski.tytul}\n${pageUrl}\n\n`;
+  return `mailto:${EMAIL}?subject=${encodeURIComponent(ski.tytul)}&body=${encodeURIComponent(body)}`;
 }
 
 export function pluralPary(n) {

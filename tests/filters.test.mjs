@@ -70,3 +70,18 @@ test("grupy filtrów mają polskie etykiety", () => {
   assert.deepEqual(FILTER_GROUPS.map((g) => g.label), ["Długość", "Poziom", "Dla kogo", "Charakter skrętu"]);
   assert.equal(FILTER_GROUPS[0].options[2].label, "166 cm i więcej");
 });
+
+import { mailtoHref } from "../js/filters.js";
+
+test("mailto ma temat i treść z linkiem do pary", () => {
+  const href = mailtoHref({ tytul: "Narty Atomic Redster G7 161 cm" }, "https://kacper08070605.github.io/narty/#/narty/1");
+  assert.ok(href.startsWith("mailto:kacper08070605@gmail.com?subject=Narty%20Atomic%20Redster%20G7%20161%20cm&body="));
+  const body = decodeURIComponent(href.split("&body=")[1]);
+  assert.ok(body.includes("Narty Atomic Redster G7 161 cm"));
+  assert.ok(body.includes("https://kacper08070605.github.io/narty/#/narty/1"));
+});
+
+test("pary zarezerwowane trafiają na koniec przy każdym sortowaniu", () => {
+  const items = [ski({ id: 1, cena: 500, zarezerwowane: true }), ski({ id: 2, cena: 900 })];
+  assert.deepEqual(sortItems(items, "cena-rosnaco").map((i) => i.id), [2, 1]);
+});

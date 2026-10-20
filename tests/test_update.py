@@ -15,6 +15,7 @@ RAW_G7 = {
     "is_reserved": False,
     "photos": [{"url": "u1"}, {"url": "u2"}],
     "brand": "Atomic",
+    "status": "Bardzo dobry",
 }
 
 
@@ -34,6 +35,7 @@ class BuildItemTest(unittest.TestCase):
         for field in ("stan", "opis_modelu"):
             self.assertNotIn("Vinted", item[field])
         self.assertEqual(warnings, [])
+        self.assertEqual(item["stan_ogolny"], "Bardzo dobry")
 
     def test_missing_level_warns(self):
         html = (FIX / "item_inline.html").read_text(encoding="utf-8")

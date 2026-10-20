@@ -60,6 +60,7 @@ def build_item(raw: dict, html: str, overrides: dict) -> tuple[dict, list[str]]:
         "tytul": title,
         "cena": round(float(raw["price"]["amount"])),
         "zarezerwowane": bool(raw.get("is_reserved")),
+        "stan_ogolny": raw.get("status") if isinstance(raw.get("status"), str) else None,
         "marka": brand_of(model, raw.get("brand") if isinstance(raw.get("brand"), str) else None),
         "model": model,
         "dlugosc_cm": f["dlugosc_cm"],
