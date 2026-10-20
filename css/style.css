@@ -299,6 +299,7 @@ a { color: inherit; }
   font-size: 13px; font-weight: 500; padding: 4px 10px; border-radius: 999px;
 }
 .gallery__thumbs {
+  position: relative;
   display: flex; gap: 8px; overflow-x: auto; padding: 10px 0 4px; margin: 0; list-style: none;
   scrollbar-width: thin;
 }

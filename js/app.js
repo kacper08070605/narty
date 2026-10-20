@@ -291,6 +291,7 @@ function initGallery(s) {
   const prev = view.querySelector(".gallery__nav--prev");
   const next = view.querySelector(".gallery__nav--next");
   const thumbs = [...view.querySelectorAll(".gallery__thumbs button")];
+  const strip = view.querySelector(".gallery__thumbs");
   const box = view.querySelector(".lightbox");
   const boxImg = box.querySelector("img");
   let current = 0;
@@ -306,7 +307,12 @@ function initGallery(s) {
     prev.disabled = i === 0;
     next.disabled = i === n - 1;
     thumbs.forEach((t, k) => t.setAttribute("aria-current", String(k === i)));
-    thumbs[i]?.scrollIntoView({ block: "nearest", inline: "nearest" });
+    // przewijamy tylko pasek miniatur, nigdy całą stronę
+    const t = thumbs[i];
+    if (t) {
+      const left = t.parentElement.offsetLeft - (strip.clientWidth - t.offsetWidth) / 2;
+      strip.scrollTo({ left: Math.max(0, left), behavior: smooth() });
+    }
   };
   const showBox = (i) => {
     boxIndex = (i + n) % n;
@@ -327,7 +333,9 @@ function initGallery(s) {
     const z = e.target.closest(".gallery__zoom");
     if (!z) return;
     showBox(Number(z.dataset.i));
+    const y = window.scrollY;
     box.showModal();
+    window.scrollTo(0, y);
   });
   box.querySelector(".lightbox__close").addEventListener("click", () => box.close());
   box.querySelector(".lightbox__nav--prev").addEventListener("click", () => showBox(boxIndex - 1));
@@ -336,7 +344,11 @@ function initGallery(s) {
     if (e.key === "ArrowRight") showBox(boxIndex + 1);
     if (e.key === "ArrowLeft") showBox(boxIndex - 1);
   });
-  box.addEventListener("close", () => go(boxIndex));
+  box.addEventListener("close", () => {
+    const y = window.scrollY;
+    go(boxIndex);
+    requestAnimationFrame(() => window.scrollTo(0, y));
+  });
   sync();
 }
 
