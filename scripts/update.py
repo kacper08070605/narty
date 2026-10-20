@@ -26,6 +26,19 @@ THUMB_W = 480
 LARGE_MAX = 1600
 
 
+KNOWN_BRANDS = ("Black Crows", "Atomic", "Fischer", "K2", "Kästle", "Völkl", "Salomon", "Nordica", "Blizzard",
+                "Kneissl", "Rossignol", "Head", "Elan", "Dynastar", "Stöckli", "Augment", "Dynafit")
+
+
+def brand_of(model: str, vinted_brand: str | None) -> str:
+    """Marka z nazwy modelu w opisie (Vinted bywa błędny), w ostateczności pole marki z Vinted."""
+    low = model.lower()
+    for b in KNOWN_BRANDS:
+        if low.startswith(b.lower() + " "):
+            return b
+    return vinted_brand or model.split()[0]
+
+
 def is_active(raw: dict) -> bool:
     return not (raw.get("is_closed") or raw.get("is_hidden") or raw.get("is_draft"))
 
@@ -41,14 +54,13 @@ def build_item(raw: dict, html: str, overrides: dict) -> tuple[dict, list[str]]:
     f = parse_fields(clean_description(desc))
     if f["dlugosc_cm"] is None:
         warnings.append(f"{title}: brak długości w opisie")
-    brand = raw.get("brand") if isinstance(raw.get("brand"), str) else raw.get("brand_title")
     model = f["model"] or title.removeprefix("Narty ").strip()
     item = {
         "id": id_,
         "tytul": title,
         "cena": round(float(raw["price"]["amount"])),
         "zarezerwowane": bool(raw.get("is_reserved")),
-        "marka": brand or model.split()[0],
+        "marka": brand_of(model, raw.get("brand") if isinstance(raw.get("brand"), str) else None),
         "model": model,
         "dlugosc_cm": f["dlugosc_cm"],
         "promien_m": f["promien_m"],
@@ -93,6 +105,18 @@ def sync_photos(items: list[dict], img_root: Path) -> None:
             shutil.rmtree(d)
 
 
+def write_og_image(items: list[dict], img_root: Path) -> None:
+    """Podgląd linku (Open Graph): pierwsze zdjęcia do 4 par obok siebie, 1200×630."""
+    W, H, n = 1200, 630, 4
+    canvas = Image.new("RGB", (W, H), (236, 235, 231))
+    tiles = [it for it in items if it.get("zdjecia")][:n]
+    for k, it in enumerate(tiles):
+        src = img_root / Path(it["zdjecia"][0]["l"]).relative_to("img")
+        with Image.open(src) as im:
+            canvas.paste(ImageOps.fit(im.convert("RGB"), (W // n, H), Image.LANCZOS), (k * W // n, 0))
+    canvas.save(img_root / "og.jpg", "JPEG", quality=85, optimize=True)
+
+
 def _load_json(path: Path, default):
     return json.loads(path.read_text(encoding="utf-8")) if path.exists() else default
 
@@ -122,6 +146,7 @@ def main(argv=None) -> int:
 
     items.sort(key=lambda it: (it["cena"], it["tytul"]))
     sync_photos(items, IMG)
+    write_og_image(items, IMG)
     DATA.parent.mkdir(exist_ok=True)
     if not OVERRIDES.exists():
         OVERRIDES.write_text("{}\n", encoding="utf-8")

@@ -4,7 +4,7 @@ from pathlib import Path
 
 from PIL import Image
 
-from scripts.update import build_item, is_active, save_photo, sync_photos
+from scripts.update import build_item, is_active, save_photo, sync_photos, write_og_image
 
 FIX = Path(__file__).parent / "fixtures"
 
@@ -44,6 +44,15 @@ class BuildItemTest(unittest.TestCase):
         self.assertTrue(any("poziom" in w for w in warnings), warnings)
 
 
+class BrandTest(unittest.TestCase):
+    def test_brand_from_model_beats_wrong_vinted_brand(self):
+        from scripts.update import brand_of
+        self.assertEqual(brand_of("K2 Disruption Speed RX", "Rossignol"), "K2")
+        self.assertEqual(brand_of("Black Crows Serpo", None), "Black Crows")
+        self.assertEqual(brand_of("Völkl Flair 72", "Volkl"), "Völkl")
+        self.assertEqual(brand_of("Nieznana Marka X", "Atomic"), "Atomic")
+
+
 class ActiveTest(unittest.TestCase):
     def test_closed_and_hidden_are_inactive(self):
         self.assertTrue(is_active({"is_closed": False, "is_hidden": False, "is_draft": False}))
@@ -80,6 +89,18 @@ class PhotosTest(unittest.TestCase):
             save_photo(buf.getvalue(), Path(d), 1)
             with Image.open(Path(d) / "1-l.webp") as l:
                 self.assertEqual(l.size, (600, 800))
+
+    def test_og_image_collage(self):
+        with tempfile.TemporaryDirectory() as d:
+            root = Path(d)
+            items = []
+            for i in (1, 2, 3, 4, 5):
+                (root / str(i)).mkdir()
+                Image.new("RGB", (600, 800), "white").save(root / str(i) / "1-l.webp", "WEBP")
+                items.append({"id": i, "zdjecia": [{"l": f"img/{i}/1-l.webp"}]})
+            write_og_image(items, root)
+            with Image.open(root / "og.jpg") as og:
+                self.assertEqual(og.size, (1200, 630))
 
 
 if __name__ == "__main__":

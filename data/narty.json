@@ -1,5 +1,5 @@
 {
- "zaktualizowano": "2026-10-20T15:38:06+00:00",
+ "zaktualizowano": "2026-10-20T15:46:08+00:00",
  "narty": [
   {
    "id": 10459307972,
@@ -512,7 +512,7 @@
    "tytul": "Narty K2 Disruption Speed RX 156 cm",
    "cena": 730,
    "zarezerwowane": false,
-   "marka": "Rossignol",
+   "marka": "K2",
    "model": "K2 Disruption Speed RX",
    "dlugosc_cm": 156.0,
    "promien_m": 12.0,
@@ -948,7 +948,7 @@
    "tytul": "Narty Nordica Dobermann Spitfire TI 162 cm",
    "cena": 780,
    "zarezerwowane": false,
-   "marka": "Rossignol",
+   "marka": "Nordica",
    "model": "Nordica Dobermann Spitfire TI",
    "dlugosc_cm": 162.0,
    "promien_m": 14.5,
@@ -1458,7 +1458,7 @@
    "tytul": "Narty Nordica Spitfire CA 162 cm",
    "cena": 880,
    "zarezerwowane": false,
-   "marka": "NORDICA",
+   "marka": "Nordica",
    "model": "Nordica Spitfire CA FDT",
    "dlugosc_cm": 162.0,
    "promien_m": 14.5,
@@ -1786,7 +1786,7 @@
    "tytul": "Narty Nordica Belle 78 156 cm",
    "cena": 950,
    "zarezerwowane": false,
-   "marka": "NORDICA",
+   "marka": "Nordica",
    "model": "Nordica Belle DC 78",
    "dlugosc_cm": 156.0,
    "promien_m": 12.8,
@@ -2092,11 +2092,91 @@
    ]
   },
   {
+   "id": 10459653470,
+   "tytul": "Narty Head Rebels eGSR 177 cm",
+   "cena": 1100,
+   "zarezerwowane": false,
+   "marka": "Head",
+   "model": "Head Worldcup Rebels e GSR",
+   "dlugosc_cm": 177.0,
+   "promien_m": 15.7,
+   "taliowanie": "120 68 101",
+   "talia_mm": 68.0,
+   "sezon": "2022/2023",
+   "inne": [],
+   "stan": "Narty używane, posiadają normalne ślady użytkowania. Stan techniczny bardzo dobry, ślizgi zadbane, krawędzie w dobrej kondycji. Narty naostrzone i nasmarowane, gotowe do jazdy.",
+   "opis_modelu": "Head Worldcup Rebels e GSR to szybkie i stabilne narty o charakterze gigantowym, stworzone do jazdy średnim i długim skrętem. Bardzo dobrze trzymają krawędź i zapewniają dużą pewność prowadzenia przy wyższych prędkościach.\n\nZastosowana technologia EMC redukuje drgania, co przekłada się na większą kontrolę i komfort jazdy. Konstrukcja Worldcup Sandwich z dodatkiem Graphene odpowiada za sztywność, dynamikę oraz bardzo dobre przenoszenie energii.\n\nTo świetny wybór dla zaawansowanych narciarzy, którzy lubią szybką i precyzyjną jazdę na przygotowanych trasach.",
+   "dlugosc_przedzial": "166plus",
+   "poziomy": [
+    "zaawansowany"
+   ],
+   "dla_kogo": "uniwersalne",
+   "skret": "dlugi",
+   "zdjecia": [
+    {
+     "s": "img/10459653470/1-s.webp",
+     "l": "img/10459653470/1-l.webp"
+    },
+    {
+     "s": "img/10459653470/2-s.webp",
+     "l": "img/10459653470/2-l.webp"
+    },
+    {
+     "s": "img/10459653470/3-s.webp",
+     "l": "img/10459653470/3-l.webp"
+    },
+    {
+     "s": "img/10459653470/4-s.webp",
+     "l": "img/10459653470/4-l.webp"
+    },
+    {
+     "s": "img/10459653470/5-s.webp",
+     "l": "img/10459653470/5-l.webp"
+    },
+    {
+     "s": "img/10459653470/6-s.webp",
+     "l": "img/10459653470/6-l.webp"
+    },
+    {
+     "s": "img/10459653470/7-s.webp",
+     "l": "img/10459653470/7-l.webp"
+    },
+    {
+     "s": "img/10459653470/8-s.webp",
+     "l": "img/10459653470/8-l.webp"
+    },
+    {
+     "s": "img/10459653470/9-s.webp",
+     "l": "img/10459653470/9-l.webp"
+    },
+    {
+     "s": "img/10459653470/10-s.webp",
+     "l": "img/10459653470/10-l.webp"
+    },
+    {
+     "s": "img/10459653470/11-s.webp",
+     "l": "img/10459653470/11-l.webp"
+    },
+    {
+     "s": "img/10459653470/12-s.webp",
+     "l": "img/10459653470/12-l.webp"
+    },
+    {
+     "s": "img/10459653470/13-s.webp",
+     "l": "img/10459653470/13-l.webp"
+    },
+    {
+     "s": "img/10459653470/14-s.webp",
+     "l": "img/10459653470/14-l.webp"
+    }
+   ]
+  },
+  {
    "id": 10458683549,
    "tytul": "Narty Black Crows Serpo 168.2 cm",
    "cena": 1150,
    "zarezerwowane": false,
-   "marka": "black crows",
+   "marka": "Black Crows",
    "model": "Black Crows Serpo",
    "dlugosc_cm": 168.2,
    "promien_m": 20.0,
