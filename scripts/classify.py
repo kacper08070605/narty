@@ -39,9 +39,10 @@ def gender(opis: str, model: str) -> str:
 
 def turn(promien_m: float | None, opis: str) -> str | None:
     t = opis.lower()
-    if "gigantow" in t:
+    giant, slalom = "gigantow" in t, "slalomow" in t
+    if giant and not slalom:
         return "dlugi"
-    if "slalomow" in t:
+    if slalom and not giant:
         return "krotki"
     if promien_m is None:
         return None

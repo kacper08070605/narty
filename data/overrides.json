@@ -1,0 +1,49 @@
+{
+ "10445288118": {
+  "match": {
+   "model": "Atomic Cloud C9",
+   "dlugosc_cm": 150.0
+  },
+  "levels": [
+   "poczatkujacy-sredni"
+  ]
+ },
+ "10446274332": {
+  "match": {
+   "model": "Kneissl My Star MC",
+   "dlugosc_cm": 164.0
+  },
+  "levels": [
+   "poczatkujacy-sredni"
+  ],
+  "turn": "sredni"
+ },
+ "10458642131": {
+  "match": {
+   "model": "Kästle RX11",
+   "dlugosc_cm": 160.0
+  },
+  "levels": [
+   "zaawansowany"
+  ]
+ },
+ "10456726934": {
+  "match": {
+   "model": "Kästle RX9",
+   "dlugosc_cm": 162.0
+  },
+  "levels": [
+   "zaawansowany"
+  ],
+  "turn": "sredni"
+ },
+ "10445118689": {
+  "match": {
+   "model": "Atomic Cloud C9",
+   "dlugosc_cm": 164.0
+  },
+  "levels": [
+   "poczatkujacy-sredni"
+  ]
+ }
+}

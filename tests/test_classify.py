@@ -39,7 +39,8 @@ class GenderTest(unittest.TestCase):
 class TurnTest(unittest.TestCase):
     def test_cases(self):
         self.assertEqual(turn(14.2, "o charakterystyce gigantowej"), "dlugi")
-        self.assertEqual(turn(14.5, "cechy nart slalomowych i gigantowych"), "dlugi")
+        self.assertEqual(turn(14.5, "cechy nart slalomowych i gigantowych"), "sredni")
+        self.assertEqual(turn(11.0, "cechy nart slalomowych i gigantowych"), "krotki")
         self.assertEqual(turn(11.9, ""), "krotki")
         self.assertEqual(turn(14.0, ""), "sredni")
         self.assertEqual(turn(16, ""), "dlugi")
