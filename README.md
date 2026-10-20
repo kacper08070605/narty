@@ -20,5 +20,5 @@ Ręczne korekty kategorii (poziom, dla kogo, charakter skrętu) wpisuje się w `
 
 ```
 python -m unittest discover -s tests -t . -v
-node --test tests/
+node --test tests/filters.test.mjs
 ```
