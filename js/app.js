@@ -142,7 +142,7 @@ function renderList() {
   view.innerHTML = `
     <section class="intro wrap">
       <h1>Narty zjazdowe z drugiej ręki</h1>
-      <p>Sprzedaję prywatnie, w Lublinie. Przy każdej parze jest opis stanu i komplet zdjęć, a ewentualne wady opisuję wprost. Wybierz długość i poziom, zostaną tylko pasujące pary.</p>
+      <p>Przy każdej parze jest opis stanu i komplet zdjęć, a ewentualne wady opisuję wprost. Wybierz długość i poziom, zostaną tylko pasujące pary.</p>
     </section>
     ${renderFilters()}
     <section class="results wrap" id="results" aria-label="Narty"></section>`;
