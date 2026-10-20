@@ -142,7 +142,7 @@ function renderList() {
   view.innerHTML = `
     <section class="intro wrap">
       <h1>Narty zjazdowe z drugiej ręki</h1>
-      <p>Przy każdej parze jest opis stanu i komplet zdjęć, a ewentualne wady opisuję wprost. Wybierz długość i poziom, zostaną tylko pasujące pary.</p>
+      <p>Narty używane w bardzo dobrym stanie. Większość par jest po serwisie: naostrzona, nasmarowana i gotowa do sezonu. W każdym ogłoszeniu są zdjęcia i dokładny opis.</p>
     </section>
     ${renderFilters()}
     <section class="results wrap" id="results" aria-label="Narty"></section>`;
@@ -250,7 +250,7 @@ function renderDetail(s) {
           <a class="btn btn--primary" href="${href}">Napisz do mnie</a>
           <p class="info__mail">Albo napisz sam na <span class="info__addr">${EMAIL}</span>
             <button type="button" class="linkbtn" data-copy>Kopiuj adres</button></p>
-          <p class="info__note">Odbiór w Lublinie albo wysyłka, koszt ustalimy mailowo.</p>
+          <p class="info__note">Odbiór w Lublinie albo wysyłka, koszt do ustalenia mailowo.</p>
         </div>
         <dl class="specs">${rows.map(([k, v]) => `<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl>
         ${s.stan ? `<section class="prose"><h2>Stan</h2>${paragraphs(s.stan)}</section>` : ""}

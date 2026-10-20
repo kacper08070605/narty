@@ -1,5 +1,5 @@
 {
- "zaktualizowano": "2026-10-20T15:52:54+00:00",
+ "zaktualizowano": "2026-10-20T16:29:47+00:00",
  "narty": [
   {
    "id": 10459307972,
@@ -2726,6 +2726,194 @@
     {
      "s": "img/10459422553/16-s.webp",
      "l": "img/10459422553/16-l.webp"
+    }
+   ]
+  },
+  {
+   "id": 10459777045,
+   "tytul": "Narty Swiss Massiv 165 cm handmade",
+   "cena": 1590,
+   "zarezerwowane": false,
+   "stan_ogolny": "Bardzo dobry",
+   "marka": "Swiss Massiv",
+   "model": "Swiss Massiv",
+   "dlugosc_cm": 165.0,
+   "promien_m": 12.5,
+   "taliowanie": "121/67/103 mm",
+   "talia_mm": 67.0,
+   "sezon": null,
+   "inne": [
+    [
+     "Numer",
+     "2356"
+    ],
+    [
+     "Wiązania",
+     "Tyrolia PRD 12"
+    ]
+   ],
+   "stan": "Narty używane, widoczne ślady użytkowania pokazane na zdjęciach. Po serwisie, krawędzie naostrzone, ślizgi nasmarowane, gotowe do jazdy.",
+   "opis_modelu": "Swiss Massiv to ręcznie robione narty szwajcarskiej produkcji. Marka stawia na rzemieślnicze wykonanie i naturalne materiały, w tym drewno i bambus. To sportowy model carvingowy o wąskiej talii 67 mm i promieniu 12,5 m, dobrze sprawdzający się przy dynamicznych, krótkich skrętach. Narty wyróżniają się na tle masowej produkcji starannym wykonaniem i charakterem szwajcarskiej manufaktury.",
+   "dlugosc_przedzial": "156-165",
+   "poziomy": [
+    "poczatkujacy-sredni",
+    "zaawansowany"
+   ],
+   "dla_kogo": "uniwersalne",
+   "skret": "krotki",
+   "zdjecia": [
+    {
+     "s": "img/10459777045/1-s.webp",
+     "l": "img/10459777045/1-l.webp"
+    },
+    {
+     "s": "img/10459777045/2-s.webp",
+     "l": "img/10459777045/2-l.webp"
+    },
+    {
+     "s": "img/10459777045/3-s.webp",
+     "l": "img/10459777045/3-l.webp"
+    },
+    {
+     "s": "img/10459777045/4-s.webp",
+     "l": "img/10459777045/4-l.webp"
+    },
+    {
+     "s": "img/10459777045/5-s.webp",
+     "l": "img/10459777045/5-l.webp"
+    },
+    {
+     "s": "img/10459777045/6-s.webp",
+     "l": "img/10459777045/6-l.webp"
+    },
+    {
+     "s": "img/10459777045/7-s.webp",
+     "l": "img/10459777045/7-l.webp"
+    },
+    {
+     "s": "img/10459777045/8-s.webp",
+     "l": "img/10459777045/8-l.webp"
+    },
+    {
+     "s": "img/10459777045/9-s.webp",
+     "l": "img/10459777045/9-l.webp"
+    },
+    {
+     "s": "img/10459777045/10-s.webp",
+     "l": "img/10459777045/10-l.webp"
+    },
+    {
+     "s": "img/10459777045/11-s.webp",
+     "l": "img/10459777045/11-l.webp"
+    },
+    {
+     "s": "img/10459777045/12-s.webp",
+     "l": "img/10459777045/12-l.webp"
+    },
+    {
+     "s": "img/10459777045/13-s.webp",
+     "l": "img/10459777045/13-l.webp"
+    },
+    {
+     "s": "img/10459777045/14-s.webp",
+     "l": "img/10459777045/14-l.webp"
+    },
+    {
+     "s": "img/10459777045/15-s.webp",
+     "l": "img/10459777045/15-l.webp"
+    },
+    {
+     "s": "img/10459777045/16-s.webp",
+     "l": "img/10459777045/16-l.webp"
+    },
+    {
+     "s": "img/10459777045/17-s.webp",
+     "l": "img/10459777045/17-l.webp"
+    }
+   ]
+  },
+  {
+   "id": 10459814601,
+   "tytul": "Narty Volkl Racetiger SL 155 cm",
+   "cena": 1670,
+   "zarezerwowane": false,
+   "stan_ogolny": "Bardzo dobry",
+   "marka": "Völkl",
+   "model": "Völkl Racetiger SL",
+   "dlugosc_cm": 155.0,
+   "promien_m": 11.0,
+   "taliowanie": "126/67/102 mm",
+   "talia_mm": 67.0,
+   "sezon": "2024/2025",
+   "inne": [],
+   "stan": "Narty używane z lekkimi śladami użytkowania. Krawędzie naostrzone, ślizgi nasmarowane, gotowe do jazdy.",
+   "opis_modelu": "Völkl Racetiger SL to sportowe narty slalomowe do dynamicznej jazdy po przygotowanych trasach. Rdzeń Multilayer Woodcore łączy warstwy drewna bukowego i topolowego, a Full Titanal wzmacnia konstrukcję i zapewnia stabilność. Tailored Carbon Tips poprawiają reakcję dziobów na ruchy narciarza, natomiast 3D.Glass wspiera trzymanie krawędzi i sprężystość nart w skręcie. Profil Tip Rocker ułatwia inicjowanie skrętów. Krótki promień 11 m sprzyja szybkim, precyzyjnym skrętom. Model dla dobrze jeżdżących narciarzy, którzy lubią aktywną jazdę carvingową.",
+   "dlugosc_przedzial": "do155",
+   "poziomy": [
+    "zaawansowany"
+   ],
+   "dla_kogo": "uniwersalne",
+   "skret": "krotki",
+   "zdjecia": [
+    {
+     "s": "img/10459814601/1-s.webp",
+     "l": "img/10459814601/1-l.webp"
+    },
+    {
+     "s": "img/10459814601/2-s.webp",
+     "l": "img/10459814601/2-l.webp"
+    },
+    {
+     "s": "img/10459814601/3-s.webp",
+     "l": "img/10459814601/3-l.webp"
+    },
+    {
+     "s": "img/10459814601/4-s.webp",
+     "l": "img/10459814601/4-l.webp"
+    },
+    {
+     "s": "img/10459814601/5-s.webp",
+     "l": "img/10459814601/5-l.webp"
+    },
+    {
+     "s": "img/10459814601/6-s.webp",
+     "l": "img/10459814601/6-l.webp"
+    },
+    {
+     "s": "img/10459814601/7-s.webp",
+     "l": "img/10459814601/7-l.webp"
+    },
+    {
+     "s": "img/10459814601/8-s.webp",
+     "l": "img/10459814601/8-l.webp"
+    },
+    {
+     "s": "img/10459814601/9-s.webp",
+     "l": "img/10459814601/9-l.webp"
+    },
+    {
+     "s": "img/10459814601/10-s.webp",
+     "l": "img/10459814601/10-l.webp"
+    },
+    {
+     "s": "img/10459814601/11-s.webp",
+     "l": "img/10459814601/11-l.webp"
+    },
+    {
+     "s": "img/10459814601/12-s.webp",
+     "l": "img/10459814601/12-l.webp"
+    },
+    {
+     "s": "img/10459814601/13-s.webp",
+     "l": "img/10459814601/13-l.webp"
+    },
+    {
+     "s": "img/10459814601/14-s.webp",
+     "l": "img/10459814601/14-l.webp"
+    },
+    {
+     "s": "img/10459814601/15-s.webp",
+     "l": "img/10459814601/15-l.webp"
     }
    ]
   },

@@ -45,5 +45,15 @@
   "levels": [
    "poczatkujacy-sredni"
   ]
+ },
+ "10459777045": {
+  "match": {
+   "model": "Swiss Massiv",
+   "dlugosc_cm": 165.0
+  },
+  "levels": [
+   "poczatkujacy-sredni",
+   "zaawansowany"
+  ]
  }
 }

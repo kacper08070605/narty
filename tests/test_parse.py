@@ -59,6 +59,12 @@ class ParseFieldsTest(unittest.TestCase):
         self.assertEqual(f["promien_m"], 11.9)
         self.assertEqual(f["model"], "Atomic Redster SC")
 
+    def test_model_drops_dash_suffix(self):
+        f = parse_fields("Model: Swiss Massiv – Handmade in Switzerland\nDługość: 165 cm\n\nStan: ok")
+        self.assertEqual(f["model"], "Swiss Massiv")
+        f = parse_fields("Swiss Massiv – Handmade in Switzerland\nDługość: 165 cm\n\nStan: ok")
+        self.assertEqual(f["model"], "Swiss Massiv")
+
     def test_fields_inne(self):
         f = parse_fields("Model: Kneissl My Star MC\nDługość: 164 cm\nWiązania: Tyrolia 10 SLR GripWalk\n\nStan: ok")
         self.assertIn(("Wiązania", "Tyrolia 10 SLR GripWalk"), f["inne"])

@@ -15,7 +15,7 @@ class VintedBlocked(RuntimeError):
 
 
 class Client:
-    def __init__(self, user_agent: str = DEFAULT_UA, delay: float = 1.0):
+    def __init__(self, user_agent: str = DEFAULT_UA, delay: float = 2.0):
         self.ua = user_agent
         self.delay = delay
         self._opener = urllib.request.build_opener(
@@ -24,6 +24,18 @@ class Client:
         self._get(BASE + "/")  # ustawia anonimowe ciasteczka sesji
 
     def _get(self, url: str, accept: str = "text/html") -> bytes:
+        # 429 = Vinted ogranicza tempo; czekamy coraz dłużej i próbujemy ponownie
+        for pause in (30, 90, 180):
+            try:
+                return self._get_once(url, accept)
+            except VintedBlocked as e:
+                if "(429)" not in str(e):
+                    raise
+                print(f"  Vinted prosi o wolniejsze tempo, czekam {pause} s…")
+                time.sleep(pause)
+        return self._get_once(url, accept)
+
+    def _get_once(self, url: str, accept: str) -> bytes:
         wait = self.delay - (time.monotonic() - self._last)
         if wait > 0:
             time.sleep(wait)

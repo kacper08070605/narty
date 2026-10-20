@@ -50,6 +50,11 @@ def _num(s: str) -> float:
     return float(s.replace(",", "."))
 
 
+def _model_name(text: str) -> str:
+    """Nazwa modelu bez dopisków po myślniku, np. „Swiss Massiv – Handmade in Switzerland”."""
+    return re.split(r"\s+[–—-]\s+", text)[0].strip()
+
+
 def parse_fields(text: str) -> dict:
     f = {"model": None, "dlugosc_cm": None, "promien_m": None, "taliowanie": None,
          "talia_mm": None, "sezon": None, "inne": [], "stan": "", "opis_modelu": ""}
@@ -66,11 +71,11 @@ def parse_fields(text: str) -> dict:
         key, val = key.strip(), val.strip()
         if not sep:
             if f["model"] is None:
-                f["model"] = line
+                f["model"] = _model_name(line)
             continue
         low = key.lower()
         if low == "model":
-            f["model"] = val
+            f["model"] = _model_name(val)
         elif low.startswith("długość"):
             m = re.search(r"[\d.,]+", val)
             f["dlugosc_cm"] = _num(m.group()) if m else None
