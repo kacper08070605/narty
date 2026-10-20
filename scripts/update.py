@@ -97,6 +97,35 @@ def save_photo(data: bytes, dest_dir: Path, n: int) -> None:
         im.resize((THUMB_W, h), Image.LANCZOS).save(dest_dir / f"{n}-s.webp", "WEBP", quality=78, method=6)
 
 
+def import_guard(raws: list, previous_count: int) -> str | None:
+    """Chroni przed opublikowaniem pustej oferty, gdy Vinted zwróci coś dziwnego."""
+    if not raws:
+        return "Vinted zwrócił 0 ogłoszeń — przerywam bez zmian."
+    if previous_count and len(raws) < previous_count // 2:
+        return (f"Vinted zwrócił tylko {len(raws)} ogłoszeń (wcześniej {previous_count}) — "
+                "przerywam bez zmian. Jeśli to prawda, uruchom z --force.")
+    return None
+
+
+def download_photos(photos: list[dict], dest: Path, get_bytes) -> None:
+    """Pobiera zdjęcia pary; ponownie tylko gdy zmienił się ich zestaw na Vinted (src.json)."""
+    sig_path = dest / "src.json"
+    sig = [p.get("id") or p.get("url") for p in photos]
+    complete = all((dest / f"{n}-l.webp").exists() for n in range(1, len(photos) + 1))
+    if sig_path.exists():
+        if json.loads(sig_path.read_text(encoding="utf-8")) == sig and complete:
+            return
+    elif complete and dest.exists():
+        # zdjęcia sprzed wprowadzenia src.json — przyjmujemy je bez ponownego pobierania
+        dest.joinpath("src.json").write_text(json.dumps(sig), encoding="utf-8")
+        return
+    if dest.exists():
+        shutil.rmtree(dest)
+    for n, photo in enumerate(photos, 1):
+        save_photo(get_bytes(photo.get("full_size_url") or photo["url"]), dest, n)
+    sig_path.write_text(json.dumps(sig), encoding="utf-8")
+
+
 def sync_photos(items: list[dict], img_root: Path) -> None:
     keep = {str(it["id"]) for it in items}
     if not img_root.exists():
@@ -127,23 +156,29 @@ def main(argv=None) -> int:
 
     overrides = _load_json(OVERRIDES, {})
     previous = {it["id"]: it for it in _load_json(DATA, {"narty": []})["narty"]}
+    import urllib.error
     try:
         client = Client()
         raws = [r for r in client.wardrobe(USER_ID) if is_active(r)]
-    except VintedBlocked as e:
+    except (VintedBlocked, urllib.error.URLError) as e:
         print(e, file=sys.stderr)
+        return 1
+    problem = import_guard(raws, len(previous))
+    if problem and "--force" not in (argv or []):
+        print(problem, file=sys.stderr)
         return 1
 
     items, warnings = [], []
-    for i, raw in enumerate(raws, 1):
-        print(f"[{i}/{len(raws)}] {raw['title']}")
-        item, w = build_item(raw, client.item_html(raw["url"]), overrides)
-        warnings += w
-        for n, photo in enumerate(raw.get("photos", []), 1):
-            dest = IMG / str(item["id"])
-            if not (dest / f"{n}-l.webp").exists():
-                save_photo(client.get_bytes(photo.get("full_size_url") or photo["url"]), dest, n)
-        items.append(item)
+    try:
+        for i, raw in enumerate(raws, 1):
+            print(f"[{i}/{len(raws)}] {raw['title']}")
+            item, w = build_item(raw, client.item_html(raw["url"]), overrides)
+            warnings += w
+            download_photos(raw.get("photos", []), IMG / str(item["id"]), client.get_bytes)
+            items.append(item)
+    except (VintedBlocked, urllib.error.URLError) as e:
+        print(f"Przerwano, dane bez zmian: {e}", file=sys.stderr)
+        return 1
 
     items.sort(key=lambda it: (it["cena"], it["tytul"]))
     sync_photos(items, IMG)

@@ -4,7 +4,7 @@ from pathlib import Path
 
 from PIL import Image
 
-from scripts.update import build_item, is_active, save_photo, sync_photos, write_og_image
+from scripts.update import build_item, download_photos, import_guard, is_active, save_photo, sync_photos, write_og_image
 
 FIX = Path(__file__).parent / "fixtures"
 
@@ -53,6 +53,44 @@ class BrandTest(unittest.TestCase):
         self.assertEqual(brand_of("Black Crows Serpo", None), "Black Crows")
         self.assertEqual(brand_of("Völkl Flair 72", "Volkl"), "Völkl")
         self.assertEqual(brand_of("Nieznana Marka X", "Atomic"), "Atomic")
+
+
+class GuardTest(unittest.TestCase):
+    def test_empty_response_aborts(self):
+        self.assertIsNotNone(import_guard([], previous_count=30))
+
+    def test_sharp_drop_aborts(self):
+        self.assertIsNotNone(import_guard([{}] * 10, previous_count=30))
+
+    def test_normal_change_passes(self):
+        self.assertIsNone(import_guard([{}] * 28, previous_count=30))
+        self.assertIsNone(import_guard([{}] * 5, previous_count=0))
+
+
+def _jpeg(color):
+    import io
+    buf = io.BytesIO()
+    Image.new("RGB", (60, 80), color).save(buf, "JPEG")
+    return buf.getvalue()
+
+
+class DownloadPhotosTest(unittest.TestCase):
+    def test_skips_unchanged_and_refreshes_changed(self):
+        calls = []
+        def get(url):
+            calls.append(url)
+            return _jpeg("red")
+        with tempfile.TemporaryDirectory() as d:
+            dest = Path(d) / "1"
+            photos = [{"id": 11, "url": "a"}, {"id": 12, "url": "b"}]
+            download_photos(photos, dest, get)
+            self.assertEqual(len(calls), 2)
+            download_photos(photos, dest, get)
+            self.assertEqual(len(calls), 2)  # bez zmian, nic nie pobiera
+            download_photos([{"id": 13, "url": "c"}], dest, get)
+            self.assertEqual(calls[-1], "c")
+            self.assertFalse((dest / "2-l.webp").exists())  # zdjęcie usunięte z ogłoszenia znika
+            self.assertTrue((dest / "1-l.webp").exists())
 
 
 class ActiveTest(unittest.TestCase):
