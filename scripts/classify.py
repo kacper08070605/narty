@@ -1,7 +1,7 @@
 """Czyste funkcje przypisujące narty do kategorii filtrów."""
 import re
 
-WOMEN_MODELS = ("cloud", "flair", "belle", "my star")
+WOMEN_MODELS = ("cloud", "flair", "belle", "my star", "joy")
 SHORT_TURN_MAX_M = 13   # promień < 13 m -> krótki skręt
 LONG_TURN_MIN_M = 15    # promień >= 15 m -> długi skręt
 

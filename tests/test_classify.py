@@ -32,6 +32,9 @@ class GenderTest(unittest.TestCase):
     def test_women_by_model(self):
         self.assertEqual(gender("", "Kneissl My Star MC"), "damskie")
 
+    def test_women_head_joy(self):
+        self.assertEqual(gender("dla osób średniozaawansowanych", "Head Super Joy"), "damskie")
+
     def test_unisex(self):
         self.assertEqual(gender("dla narciarzy", "K2 Disruption STi"), "uniwersalne")
 

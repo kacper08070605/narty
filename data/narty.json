@@ -1,5 +1,5 @@
 {
- "zaktualizowano": "2026-10-21T13:54:23+00:00",
+ "zaktualizowano": "2026-10-26T15:54:43+00:00",
  "narty": [
   {
    "id": 10459307972,
@@ -783,6 +783,84 @@
    ]
   },
   {
+   "id": 10508112553,
+   "tytul": "Narty Volkl Racetiger SC 170 cm",
+   "cena": 750,
+   "zarezerwowane": false,
+   "stan_ogolny": "Dobry",
+   "marka": "Völkl",
+   "model": "Volkl Racetiger SC",
+   "dlugosc_cm": 170.0,
+   "promien_m": 13.9,
+   "taliowanie": "123 70 103",
+   "talia_mm": 70.0,
+   "sezon": "2019/2020",
+   "inne": [],
+   "stan": "Narty używane, posiadają normalne ślady użytkowania. Na ślizgach widoczne lekkie rysy, powierzchowne i nie wpływają na jazdę. Stan techniczny bardzo dobry, krawędzie grube. Narty naostrzone i nasmarowane, gotowe do jazdy.\n\nUwagi: W jednej narcie brakuje metalowego elementu na nosku. Nie wpływa to na jazdę, kwestia wizualna.",
+   "opis_modelu": "Volkl Racetiger SC to dynamiczne narty na przygotowane trasy o sportowym charakterze. Bardzo dobrze trzymają krawędź i pewnie prowadzą się przy większych prędkościach, a jednocześnie są dość łatwe w kontroli.\n\nModel wykorzystuje rdzeń drewniany Full Sensor Woodcore, który zapewnia dobrą równowagę między sztywnością a elastycznością. Konstrukcja z warstwą tytanu poprawia stabilność oraz precyzję prowadzenia. Profil Tip Rocker ułatwia inicjację skrętu i sprawia, że narty są bardziej przyjazne w użytkowaniu.\n\nTo bardzo dobry wybór dla średniozaawansowanych i zaawansowanych narciarzy, którzy szukają pewnych i dynamicznych nart na stok.",
+   "dlugosc_przedzial": "166plus",
+   "poziomy": [
+    "poczatkujacy-sredni",
+    "zaawansowany"
+   ],
+   "dla_kogo": "uniwersalne",
+   "skret": "sredni",
+   "zdjecia": [
+    {
+     "s": "img/10508112553/1-s.webp",
+     "l": "img/10508112553/1-l.webp"
+    },
+    {
+     "s": "img/10508112553/2-s.webp",
+     "l": "img/10508112553/2-l.webp"
+    },
+    {
+     "s": "img/10508112553/3-s.webp",
+     "l": "img/10508112553/3-l.webp"
+    },
+    {
+     "s": "img/10508112553/4-s.webp",
+     "l": "img/10508112553/4-l.webp"
+    },
+    {
+     "s": "img/10508112553/5-s.webp",
+     "l": "img/10508112553/5-l.webp"
+    },
+    {
+     "s": "img/10508112553/6-s.webp",
+     "l": "img/10508112553/6-l.webp"
+    },
+    {
+     "s": "img/10508112553/7-s.webp",
+     "l": "img/10508112553/7-l.webp"
+    },
+    {
+     "s": "img/10508112553/8-s.webp",
+     "l": "img/10508112553/8-l.webp"
+    },
+    {
+     "s": "img/10508112553/9-s.webp",
+     "l": "img/10508112553/9-l.webp"
+    },
+    {
+     "s": "img/10508112553/10-s.webp",
+     "l": "img/10508112553/10-l.webp"
+    },
+    {
+     "s": "img/10508112553/11-s.webp",
+     "l": "img/10508112553/11-l.webp"
+    },
+    {
+     "s": "img/10508112553/12-s.webp",
+     "l": "img/10508112553/12-l.webp"
+    },
+    {
+     "s": "img/10508112553/13-s.webp",
+     "l": "img/10508112553/13-l.webp"
+    }
+   ]
+  },
+  {
    "id": 10456778139,
    "tytul": "Narty Fischer RC One GT 78 152 cm",
    "cena": 780,
@@ -1369,6 +1447,71 @@
    ]
   },
   {
+   "id": 10508143045,
+   "tytul": "Narty Head Super Joy 163 cm",
+   "cena": 850,
+   "zarezerwowane": false,
+   "stan_ogolny": "Bardzo dobry",
+   "marka": "Head",
+   "model": "Head Super Joy",
+   "dlugosc_cm": 163.0,
+   "promien_m": 12.2,
+   "taliowanie": "129 75 108",
+   "talia_mm": 75.0,
+   "sezon": "2022/2023",
+   "inne": [],
+   "stan": "Narty używane, posiadają normalne ślady użytkowania. Stan techniczny bardzo dobry, ślizgi zadbane, krawędzie w dobrej kondycji. Narty naostrzone i nasmarowane, gotowe do jazdy.",
+   "opis_modelu": "Head Super Joy to lekkie i bardzo przyjemne w prowadzeniu narty na przygotowane trasy. Dzięki szerszej talii są stabilne i wybaczające błędy, a jednocześnie pozwalają na dynamiczną jazdę i łatwe wchodzenie w skręt.\n\nZastosowana konstrukcja Graphene zapewnia dobrą sztywność przy zachowaniu niskiej wagi, co przekłada się na komfort i mniejsze zmęczenie podczas jazdy. Rdzeń drewniany w połączeniu z technologią Better Balance ułatwia kontrolę i poprawia pozycję na nartach.\n\nTo bardzo dobry wybór dla osób średniozaawansowanych oraz tych, którzy szukają lekkich, stabilnych i łatwych w prowadzeniu nart na cały dzień jazdy.",
+   "dlugosc_przedzial": "156-165",
+   "poziomy": [
+    "poczatkujacy-sredni"
+   ],
+   "dla_kogo": "damskie",
+   "skret": "krotki",
+   "zdjecia": [
+    {
+     "s": "img/10508143045/1-s.webp",
+     "l": "img/10508143045/1-l.webp"
+    },
+    {
+     "s": "img/10508143045/2-s.webp",
+     "l": "img/10508143045/2-l.webp"
+    },
+    {
+     "s": "img/10508143045/3-s.webp",
+     "l": "img/10508143045/3-l.webp"
+    },
+    {
+     "s": "img/10508143045/4-s.webp",
+     "l": "img/10508143045/4-l.webp"
+    },
+    {
+     "s": "img/10508143045/5-s.webp",
+     "l": "img/10508143045/5-l.webp"
+    },
+    {
+     "s": "img/10508143045/6-s.webp",
+     "l": "img/10508143045/6-l.webp"
+    },
+    {
+     "s": "img/10508143045/7-s.webp",
+     "l": "img/10508143045/7-l.webp"
+    },
+    {
+     "s": "img/10508143045/8-s.webp",
+     "l": "img/10508143045/8-l.webp"
+    },
+    {
+     "s": "img/10508143045/9-s.webp",
+     "l": "img/10508143045/9-l.webp"
+    },
+    {
+     "s": "img/10508143045/10-s.webp",
+     "l": "img/10508143045/10-l.webp"
+    }
+   ]
+  },
+  {
    "id": 10445590864,
    "tytul": "Narty Atomic Redster G7 161 cm",
    "cena": 870,
@@ -1540,6 +1683,84 @@
     {
      "s": "img/10445748503/12-s.webp",
      "l": "img/10445748503/12-l.webp"
+    }
+   ]
+  },
+  {
+   "id": 10508281558,
+   "tytul": "Narty Blizzard Firebird TI 160 cm",
+   "cena": 900,
+   "zarezerwowane": false,
+   "stan_ogolny": "Bardzo dobry",
+   "marka": "Blizzard",
+   "model": "Blizzard Firebird TI",
+   "dlugosc_cm": 160.0,
+   "promien_m": 13.0,
+   "taliowanie": "119/71/102",
+   "talia_mm": 71.0,
+   "sezon": "2023/2024",
+   "inne": [],
+   "stan": "Narty używane, posiadają normalne ślady użytkowania. Stan techniczny bardzo dobry, krawędzie grube, ślizgi zadbane. Narty są po serwisie, naostrzone i nasmarowane, gotowe do jazdy.",
+   "opis_modelu": "Blizzard Firebird TI to sportowe narty na przygotowane trasy, oferujące bardzo dobre trzymanie krawędzi i stabilność przy większych prędkościach. Dzięki drewnianemu rdzeniowi i wzmocnieniom z tytanu są dynamiczne, precyzyjne i pewne w prowadzeniu. Idealne dla średniozaawansowanych i zaawansowanych narciarzy.",
+   "dlugosc_przedzial": "156-165",
+   "poziomy": [
+    "poczatkujacy-sredni",
+    "zaawansowany"
+   ],
+   "dla_kogo": "uniwersalne",
+   "skret": "sredni",
+   "zdjecia": [
+    {
+     "s": "img/10508281558/1-s.webp",
+     "l": "img/10508281558/1-l.webp"
+    },
+    {
+     "s": "img/10508281558/2-s.webp",
+     "l": "img/10508281558/2-l.webp"
+    },
+    {
+     "s": "img/10508281558/3-s.webp",
+     "l": "img/10508281558/3-l.webp"
+    },
+    {
+     "s": "img/10508281558/4-s.webp",
+     "l": "img/10508281558/4-l.webp"
+    },
+    {
+     "s": "img/10508281558/5-s.webp",
+     "l": "img/10508281558/5-l.webp"
+    },
+    {
+     "s": "img/10508281558/6-s.webp",
+     "l": "img/10508281558/6-l.webp"
+    },
+    {
+     "s": "img/10508281558/7-s.webp",
+     "l": "img/10508281558/7-l.webp"
+    },
+    {
+     "s": "img/10508281558/8-s.webp",
+     "l": "img/10508281558/8-l.webp"
+    },
+    {
+     "s": "img/10508281558/9-s.webp",
+     "l": "img/10508281558/9-l.webp"
+    },
+    {
+     "s": "img/10508281558/10-s.webp",
+     "l": "img/10508281558/10-l.webp"
+    },
+    {
+     "s": "img/10508281558/11-s.webp",
+     "l": "img/10508281558/11-l.webp"
+    },
+    {
+     "s": "img/10508281558/12-s.webp",
+     "l": "img/10508281558/12-l.webp"
+    },
+    {
+     "s": "img/10508281558/13-s.webp",
+     "l": "img/10508281558/13-l.webp"
     }
    ]
   },
@@ -2207,6 +2428,75 @@
    ]
   },
   {
+   "id": 10482795936,
+   "tytul": "Narty Head Rebels eGSR 177 cm",
+   "cena": 1100,
+   "zarezerwowane": false,
+   "stan_ogolny": "Bardzo dobry",
+   "marka": "Head",
+   "model": "Head Worldcup Rebels e GSR",
+   "dlugosc_cm": 177.0,
+   "promien_m": 15.7,
+   "taliowanie": "120 68 101",
+   "talia_mm": 68.0,
+   "sezon": "2022/2023",
+   "inne": [],
+   "stan": "Narty używane, posiadają normalne ślady użytkowania. Stan techniczny bardzo dobry, ślizgi zadbane, krawędzie w dobrej kondycji. Narty naostrzone i nasmarowane, gotowe do jazdy.",
+   "opis_modelu": "Head Worldcup Rebels e GSR to szybkie i stabilne narty o charakterze gigantowym, stworzone do jazdy średnim i długim skrętem. Bardzo dobrze trzymają krawędź i zapewniają dużą pewność prowadzenia przy wyższych prędkościach.\n\nZastosowana technologia EMC redukuje drgania, co przekłada się na większą kontrolę i komfort jazdy. Konstrukcja Worldcup Sandwich z dodatkiem Graphene odpowiada za sztywność, dynamikę oraz bardzo dobre przenoszenie energii.\n\nTo świetny wybór dla zaawansowanych narciarzy, którzy lubią szybką i precyzyjną jazdę na przygotowanych trasach.",
+   "dlugosc_przedzial": "166plus",
+   "poziomy": [
+    "zaawansowany"
+   ],
+   "dla_kogo": "uniwersalne",
+   "skret": "dlugi",
+   "zdjecia": [
+    {
+     "s": "img/10482795936/1-s.webp",
+     "l": "img/10482795936/1-l.webp"
+    },
+    {
+     "s": "img/10482795936/2-s.webp",
+     "l": "img/10482795936/2-l.webp"
+    },
+    {
+     "s": "img/10482795936/3-s.webp",
+     "l": "img/10482795936/3-l.webp"
+    },
+    {
+     "s": "img/10482795936/4-s.webp",
+     "l": "img/10482795936/4-l.webp"
+    },
+    {
+     "s": "img/10482795936/5-s.webp",
+     "l": "img/10482795936/5-l.webp"
+    },
+    {
+     "s": "img/10482795936/6-s.webp",
+     "l": "img/10482795936/6-l.webp"
+    },
+    {
+     "s": "img/10482795936/7-s.webp",
+     "l": "img/10482795936/7-l.webp"
+    },
+    {
+     "s": "img/10482795936/8-s.webp",
+     "l": "img/10482795936/8-l.webp"
+    },
+    {
+     "s": "img/10482795936/9-s.webp",
+     "l": "img/10482795936/9-l.webp"
+    },
+    {
+     "s": "img/10482795936/10-s.webp",
+     "l": "img/10482795936/10-l.webp"
+    },
+    {
+     "s": "img/10482795936/11-s.webp",
+     "l": "img/10482795936/11-l.webp"
+    }
+   ]
+  },
+  {
    "id": 10459653470,
    "tytul": "Narty Head Rebels eGSR 177 cm",
    "cena": 1100,
@@ -2464,6 +2754,72 @@
    ]
   },
   {
+   "id": 10508313958,
+   "tytul": "Narty Fischer RC4 PWR  160 cm",
+   "cena": 1200,
+   "zarezerwowane": false,
+   "stan_ogolny": "Bardzo dobry",
+   "marka": "Fischer",
+   "model": "Fischer RC4 PWR",
+   "dlugosc_cm": 160.0,
+   "promien_m": 14.0,
+   "taliowanie": "ok. 115/68/99",
+   "talia_mm": 68.0,
+   "sezon": "2024/2025",
+   "inne": [],
+   "stan": "Narty używane, posiadają niewielkie ślady użytkowania wynikające z normalnej jazdy. Stan techniczny bardzo dobry, ślizgi w dobrej kondycji, krawędzie grube i zadbane. Narty świeżo przygotowane do sezonu – naostrzone i nasmarowane, gotowe do jazdy.",
+   "opis_modelu": "Fischer RC4 PWR z sezonu 2024/2025 to nowoczesne narty sportowe stworzone z myślą o dynamicznej jeździe po przygotowanych trasach. Model ten oferuje świetne połączenie precyzji, stabilności i łatwości prowadzenia. Dzięki zastosowaniu technologii On-Piste Rocker narty szybko inicjują skręt i zachowują płynność jazdy. Rdzeń drewniany w połączeniu z wzmocnieniami zapewnia odpowiednią sztywność oraz bardzo dobre trzymanie krawędzi nawet przy większych prędkościach.\n\nRC4 PWR to idealny wybór dla średniozaawansowanych i zaawansowanych narciarzy, którzy szukają uniwersalnych nart o sportowym charakterze – świetnych zarówno do krótkich, jak i średnich skrętów na twardych trasach.",
+   "dlugosc_przedzial": "156-165",
+   "poziomy": [
+    "poczatkujacy-sredni",
+    "zaawansowany"
+   ],
+   "dla_kogo": "uniwersalne",
+   "skret": "sredni",
+   "zdjecia": [
+    {
+     "s": "img/10508313958/1-s.webp",
+     "l": "img/10508313958/1-l.webp"
+    },
+    {
+     "s": "img/10508313958/2-s.webp",
+     "l": "img/10508313958/2-l.webp"
+    },
+    {
+     "s": "img/10508313958/3-s.webp",
+     "l": "img/10508313958/3-l.webp"
+    },
+    {
+     "s": "img/10508313958/4-s.webp",
+     "l": "img/10508313958/4-l.webp"
+    },
+    {
+     "s": "img/10508313958/5-s.webp",
+     "l": "img/10508313958/5-l.webp"
+    },
+    {
+     "s": "img/10508313958/6-s.webp",
+     "l": "img/10508313958/6-l.webp"
+    },
+    {
+     "s": "img/10508313958/7-s.webp",
+     "l": "img/10508313958/7-l.webp"
+    },
+    {
+     "s": "img/10508313958/8-s.webp",
+     "l": "img/10508313958/8-l.webp"
+    },
+    {
+     "s": "img/10508313958/9-s.webp",
+     "l": "img/10508313958/9-l.webp"
+    },
+    {
+     "s": "img/10508313958/10-s.webp",
+     "l": "img/10508313958/10-l.webp"
+    }
+   ]
+  },
+  {
    "id": 10464444408,
    "tytul": "Narty Atomic Redster X7 155 cm",
    "cena": 1250,
@@ -2546,6 +2902,76 @@
    ]
   },
   {
+   "id": 10508181333,
+   "tytul": "Narty Head Supershape e-speed 156 cm",
+   "cena": 1250,
+   "zarezerwowane": false,
+   "stan_ogolny": "Bardzo dobry",
+   "marka": "Head",
+   "model": "Head Supershape e Speed",
+   "dlugosc_cm": 156.0,
+   "promien_m": 11.6,
+   "taliowanie": "122 68 104",
+   "talia_mm": 68.0,
+   "sezon": "2023/2024",
+   "inne": [],
+   "stan": "Narty używane, posiadają normalne ślady użytkowania. Stan techniczny bardzo dobry, ślizgi zadbane, krawędzie w dobrej kondycji. Narty naostrzone i nasmarowane, gotowe do jazdy.",
+   "opis_modelu": "Head Supershape e Speed to szybkie i stabilne narty na przygotowane trasy, najlepiej czujące się w średnim i dłuższym skręcie. Oferują dużą pewność prowadzenia oraz bardzo dobre trzymanie krawędzi nawet przy większych prędkościach.\n\nZastosowana technologia EMC redukuje drgania, co przekłada się na większą kontrolę i komfort jazdy. Konstrukcja Graphene Worldcup Sandwich Cap zapewnia sztywność, lekkość oraz bardzo dobre przenoszenie energii.\n\nTo świetny wybór dla średniozaawansowanych i zaawansowanych narciarzy, którzy szukają szybkich i przewidywalnych nart na stok.",
+   "dlugosc_przedzial": "156-165",
+   "poziomy": [
+    "poczatkujacy-sredni",
+    "zaawansowany"
+   ],
+   "dla_kogo": "uniwersalne",
+   "skret": "krotki",
+   "zdjecia": [
+    {
+     "s": "img/10508181333/1-s.webp",
+     "l": "img/10508181333/1-l.webp"
+    },
+    {
+     "s": "img/10508181333/2-s.webp",
+     "l": "img/10508181333/2-l.webp"
+    },
+    {
+     "s": "img/10508181333/3-s.webp",
+     "l": "img/10508181333/3-l.webp"
+    },
+    {
+     "s": "img/10508181333/4-s.webp",
+     "l": "img/10508181333/4-l.webp"
+    },
+    {
+     "s": "img/10508181333/5-s.webp",
+     "l": "img/10508181333/5-l.webp"
+    },
+    {
+     "s": "img/10508181333/6-s.webp",
+     "l": "img/10508181333/6-l.webp"
+    },
+    {
+     "s": "img/10508181333/7-s.webp",
+     "l": "img/10508181333/7-l.webp"
+    },
+    {
+     "s": "img/10508181333/8-s.webp",
+     "l": "img/10508181333/8-l.webp"
+    },
+    {
+     "s": "img/10508181333/9-s.webp",
+     "l": "img/10508181333/9-l.webp"
+    },
+    {
+     "s": "img/10508181333/10-s.webp",
+     "l": "img/10508181333/10-l.webp"
+    },
+    {
+     "s": "img/10508181333/11-s.webp",
+     "l": "img/10508181333/11-l.webp"
+    }
+   ]
+  },
+  {
    "id": 10464414961,
    "tytul": "Narty Head Supershape e-speed 156 cm",
    "cena": 1250,
@@ -2624,6 +3050,95 @@
     {
      "s": "img/10464414961/14-s.webp",
      "l": "img/10464414961/14-l.webp"
+    }
+   ]
+  },
+  {
+   "id": 10482712739,
+   "tytul": "Narty Salomon S/Race SL 12 165 cm",
+   "cena": 1250,
+   "zarezerwowane": false,
+   "stan_ogolny": "Bardzo dobry",
+   "marka": "Salomon",
+   "model": "Salomon S/Race SL 12",
+   "dlugosc_cm": 165.0,
+   "promien_m": 13.0,
+   "taliowanie": "121/68/104 mm",
+   "talia_mm": 68.0,
+   "sezon": null,
+   "inne": [],
+   "stan": "Narty używane, na warstwie zewnętrznej widoczne ślady użytkowania ukazane na zdjęciach. Ślizgi i krawędzie w bardzo dobrym stanie. Narty w pełni przygotowane do sezonu, krawędzie naostrzone, a ślizgi nasmarowane.",
+   "opis_modelu": "Salomon S/Race SL 12 to sportowe narty slalomowe do dynamicznej jazdy po przygotowanych trasach. Taliowanie 121/68/104 mm i promień 13 m sprzyjają szybkim, precyzyjnym skrętom. Technologia Blade Technology, łącząca elastyczne wkładki z warstwą tytanalu, ułatwia ugięcie narty w skręcie, zachowując stabilność i dobre trzymanie krawędzi. Drewniany rdzeń z jesionu, podwójne warstwy tytanalu i konstrukcja Full Sandwich Sidewall zapewniają sztywność, precyzję prowadzenia oraz pewność na twardym śniegu. To model o sportowym charakterze, przeznaczony dla zaawansowanych narciarzy lubiących energiczną jazdę carvingową.",
+   "dlugosc_przedzial": "156-165",
+   "poziomy": [
+    "zaawansowany"
+   ],
+   "dla_kogo": "uniwersalne",
+   "skret": "krotki",
+   "zdjecia": [
+    {
+     "s": "img/10482712739/1-s.webp",
+     "l": "img/10482712739/1-l.webp"
+    },
+    {
+     "s": "img/10482712739/2-s.webp",
+     "l": "img/10482712739/2-l.webp"
+    },
+    {
+     "s": "img/10482712739/3-s.webp",
+     "l": "img/10482712739/3-l.webp"
+    },
+    {
+     "s": "img/10482712739/4-s.webp",
+     "l": "img/10482712739/4-l.webp"
+    },
+    {
+     "s": "img/10482712739/5-s.webp",
+     "l": "img/10482712739/5-l.webp"
+    },
+    {
+     "s": "img/10482712739/6-s.webp",
+     "l": "img/10482712739/6-l.webp"
+    },
+    {
+     "s": "img/10482712739/7-s.webp",
+     "l": "img/10482712739/7-l.webp"
+    },
+    {
+     "s": "img/10482712739/8-s.webp",
+     "l": "img/10482712739/8-l.webp"
+    },
+    {
+     "s": "img/10482712739/9-s.webp",
+     "l": "img/10482712739/9-l.webp"
+    },
+    {
+     "s": "img/10482712739/10-s.webp",
+     "l": "img/10482712739/10-l.webp"
+    },
+    {
+     "s": "img/10482712739/11-s.webp",
+     "l": "img/10482712739/11-l.webp"
+    },
+    {
+     "s": "img/10482712739/12-s.webp",
+     "l": "img/10482712739/12-l.webp"
+    },
+    {
+     "s": "img/10482712739/13-s.webp",
+     "l": "img/10482712739/13-l.webp"
+    },
+    {
+     "s": "img/10482712739/14-s.webp",
+     "l": "img/10482712739/14-l.webp"
+    },
+    {
+     "s": "img/10482712739/15-s.webp",
+     "l": "img/10482712739/15-l.webp"
+    },
+    {
+     "s": "img/10482712739/16-s.webp",
+     "l": "img/10482712739/16-l.webp"
     }
    ]
   },
@@ -2901,6 +3416,145 @@
     {
      "s": "img/10464353836/16-s.webp",
      "l": "img/10464353836/16-l.webp"
+    }
+   ]
+  },
+  {
+   "id": 10507782796,
+   "tytul": "Narty Head Rebels eGSR 177 cm",
+   "cena": 1390,
+   "zarezerwowane": false,
+   "stan_ogolny": "Bardzo dobry",
+   "marka": "Head",
+   "model": "Head Worldcup Rebels e GSR",
+   "dlugosc_cm": 177.0,
+   "promien_m": 15.7,
+   "taliowanie": "120 68 101",
+   "talia_mm": 68.0,
+   "sezon": "2023/2024",
+   "inne": [],
+   "stan": "Narty używane, posiadają normalne ślady użytkowania. Stan techniczny bardzo dobry, ślizgi zadbane, krawędzie w dobrej kondycji. Narty naostrzone i nasmarowane, gotowe do jazdy.",
+   "opis_modelu": "Head Worldcup Rebels e GSR to szybkie i bardzo stabilne narty o charakterze gigantowym, stworzone do jazdy długim i średnim skrętem na przygotowanych trasach. Oferują dużą precyzję prowadzenia oraz świetne trzymanie krawędzi przy wyższych prędkościach.\n\nModel wyposażony jest w technologię EMC, która redukuje drgania i poprawia kontrolę. Konstrukcja Worldcup Sandwich z dodatkiem Graphene zapewnia wysoką sztywność, stabilność oraz bardzo dobre przenoszenie energii. Dodatkowo płyta Worldcup Rebel Plate zwiększa precyzję i dynamikę jazdy.\n\nTo bardzo dobry wybór dla zaawansowanych narciarzy, którzy szukają szybkich i pewnych nart na stok, zbliżonych charakterem do sprzętu zawodniczego.",
+   "dlugosc_przedzial": "166plus",
+   "poziomy": [
+    "zaawansowany"
+   ],
+   "dla_kogo": "uniwersalne",
+   "skret": "dlugi",
+   "zdjecia": [
+    {
+     "s": "img/10507782796/1-s.webp",
+     "l": "img/10507782796/1-l.webp"
+    },
+    {
+     "s": "img/10507782796/2-s.webp",
+     "l": "img/10507782796/2-l.webp"
+    },
+    {
+     "s": "img/10507782796/3-s.webp",
+     "l": "img/10507782796/3-l.webp"
+    },
+    {
+     "s": "img/10507782796/4-s.webp",
+     "l": "img/10507782796/4-l.webp"
+    },
+    {
+     "s": "img/10507782796/5-s.webp",
+     "l": "img/10507782796/5-l.webp"
+    },
+    {
+     "s": "img/10507782796/6-s.webp",
+     "l": "img/10507782796/6-l.webp"
+    },
+    {
+     "s": "img/10507782796/7-s.webp",
+     "l": "img/10507782796/7-l.webp"
+    },
+    {
+     "s": "img/10507782796/8-s.webp",
+     "l": "img/10507782796/8-l.webp"
+    },
+    {
+     "s": "img/10507782796/9-s.webp",
+     "l": "img/10507782796/9-l.webp"
+    },
+    {
+     "s": "img/10507782796/10-s.webp",
+     "l": "img/10507782796/10-l.webp"
+    },
+    {
+     "s": "img/10507782796/11-s.webp",
+     "l": "img/10507782796/11-l.webp"
+    },
+    {
+     "s": "img/10507782796/12-s.webp",
+     "l": "img/10507782796/12-l.webp"
+    }
+   ]
+  },
+  {
+   "id": 10508223262,
+   "tytul": "Narty Blizzard Firebird SRC 160 cm",
+   "cena": 1400,
+   "zarezerwowane": false,
+   "stan_ogolny": "Bardzo dobry",
+   "marka": "Blizzard",
+   "model": "Blizzard Firebird SRC",
+   "dlugosc_cm": 160.0,
+   "promien_m": 12.0,
+   "taliowanie": "120/68/104",
+   "talia_mm": 68.0,
+   "sezon": "2022/2023",
+   "inne": [],
+   "stan": "Narty używane, posiadają normalne ślady użytkowania. Stan techniczny bardzo dobry, ślizgi zadbane, krawędzie w dobrej kondycji. Narty naostrzone i nasmarowane, gotowe do jazdy.",
+   "opis_modelu": "Blizzard Firebird SRC to dynamiczne narty na przygotowane trasy, które bardzo dobrze radzą sobie w krótkich i szybkich skrętach. Model ten łączy sportowy charakter z dość łatwym prowadzeniem, dzięki czemu daje dużo kontroli i przyjemności z jazdy.\n\nNarty wyposażone są w drewniany rdzeń Trueblend Piste Woodcore, który zapewnia odpowiednią sztywność tam gdzie jest potrzebna oraz większą elastyczność w innych strefach, co poprawia płynność jazdy. Dodatkowo zastosowane wzmocnienia z tytanu zwiększają stabilność oraz trzymanie krawędzi przy większych prędkościach. Konstrukcja Full Camber odpowiada za precyzję i dobrą reakcję na skręt.\n\nTo bardzo dobry wybór dla średniozaawansowanych i zaawansowanych narciarzy, którzy szukają zwinnych i pewnych nart na stok.",
+   "dlugosc_przedzial": "156-165",
+   "poziomy": [
+    "poczatkujacy-sredni",
+    "zaawansowany"
+   ],
+   "dla_kogo": "uniwersalne",
+   "skret": "krotki",
+   "zdjecia": [
+    {
+     "s": "img/10508223262/1-s.webp",
+     "l": "img/10508223262/1-l.webp"
+    },
+    {
+     "s": "img/10508223262/2-s.webp",
+     "l": "img/10508223262/2-l.webp"
+    },
+    {
+     "s": "img/10508223262/3-s.webp",
+     "l": "img/10508223262/3-l.webp"
+    },
+    {
+     "s": "img/10508223262/4-s.webp",
+     "l": "img/10508223262/4-l.webp"
+    },
+    {
+     "s": "img/10508223262/5-s.webp",
+     "l": "img/10508223262/5-l.webp"
+    },
+    {
+     "s": "img/10508223262/6-s.webp",
+     "l": "img/10508223262/6-l.webp"
+    },
+    {
+     "s": "img/10508223262/7-s.webp",
+     "l": "img/10508223262/7-l.webp"
+    },
+    {
+     "s": "img/10508223262/8-s.webp",
+     "l": "img/10508223262/8-l.webp"
+    },
+    {
+     "s": "img/10508223262/9-s.webp",
+     "l": "img/10508223262/9-l.webp"
+    },
+    {
+     "s": "img/10508223262/10-s.webp",
+     "l": "img/10508223262/10-l.webp"
     }
    ]
   },
@@ -3441,6 +4095,71 @@
     {
      "s": "img/10459390334/16-s.webp",
      "l": "img/10459390334/16-l.webp"
+    }
+   ]
+  },
+  {
+   "id": 10482735998,
+   "tytul": "Narty Head Worldcup Rebels E-Race Pro 160 cm, NOWE!",
+   "cena": 2650,
+   "zarezerwowane": false,
+   "stan_ogolny": "Nowy z metką",
+   "marka": "Head",
+   "model": "Head Worldcup Rebels E-Race Pro",
+   "dlugosc_cm": 160.0,
+   "promien_m": 12.6,
+   "taliowanie": "121/68/102 mm",
+   "talia_mm": 68.0,
+   "sezon": "2022/2023",
+   "inne": [],
+   "stan": "Narty fabrycznie nowe, nieużywane",
+   "opis_modelu": "Head Worldcup Rebels E-Race Pro to wysokiej klasy narty sportowe do dynamicznej jazdy carvingowej po przygotowanych trasach. Technologia EMC tłumi drgania, poprawiając stabilność podczas jazdy. Konstrukcja Graphene Worldcup Sandwich Cap z drewnianym rdzeniem, warstwami Titanalu i włóknem szklanym zapewnia sztywność, precyzję oraz dobre trzymanie krawędzi. Ślizgi RD Race Structured UHM C zostały zaprojektowane z myślą o wysokich osiągach na stoku.\n\nPromień 12,6 m sprzyja krótkim, dynamicznym skrętom. To wymagający, sportowy model dla zaawansowanych narciarzy, którzy oczekują precyzji i stabilności.\n\nWiązania: RACEPLATE WCR 14 Short z wiązaniami Freeflex ST 16. Sportowy zestaw zapewniający precyzyjne przekazywanie sił na narty.",
+   "dlugosc_przedzial": "156-165",
+   "poziomy": [
+    "zaawansowany"
+   ],
+   "dla_kogo": "uniwersalne",
+   "skret": "krotki",
+   "zdjecia": [
+    {
+     "s": "img/10482735998/1-s.webp",
+     "l": "img/10482735998/1-l.webp"
+    },
+    {
+     "s": "img/10482735998/2-s.webp",
+     "l": "img/10482735998/2-l.webp"
+    },
+    {
+     "s": "img/10482735998/3-s.webp",
+     "l": "img/10482735998/3-l.webp"
+    },
+    {
+     "s": "img/10482735998/4-s.webp",
+     "l": "img/10482735998/4-l.webp"
+    },
+    {
+     "s": "img/10482735998/5-s.webp",
+     "l": "img/10482735998/5-l.webp"
+    },
+    {
+     "s": "img/10482735998/6-s.webp",
+     "l": "img/10482735998/6-l.webp"
+    },
+    {
+     "s": "img/10482735998/7-s.webp",
+     "l": "img/10482735998/7-l.webp"
+    },
+    {
+     "s": "img/10482735998/8-s.webp",
+     "l": "img/10482735998/8-l.webp"
+    },
+    {
+     "s": "img/10482735998/9-s.webp",
+     "l": "img/10482735998/9-l.webp"
+    },
+    {
+     "s": "img/10482735998/10-s.webp",
+     "l": "img/10482735998/10-l.webp"
     }
    ]
   }
